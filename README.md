@@ -1,86 +1,89 @@
-# Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth 2023
 
-![Copy of Fullstack Twitter Clone (8)](https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png)
+# Museum Archive and Virtual Tour Application
 
+## Table of Contents
 
-This is a repository for a Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth.
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-[VIDEO TUTORIAL](https://youtu.be/c_-b_isI4vg)
+## About
 
-Features:
+The Museum Archive and Virtual Tour Application is a platform designed to digitize, preserve, and provide virtual tours of historical artifacts and museum exhibits. This web application offers a user-friendly interface for exploring a digital collection of cultural and historical artifacts.
 
-- Tailwind design
-- Tailwind animations and effects
-- Full responsiveness
-- Credential authentication
-- Google authentication
-- Github authentication
-- Image upload using Cloudinary CDN
-- Client form validation and handling using react-hook-form
-- Server error handling using react-toast
-- Calendars with react-date-range
-- Page loading state
-- Page empty state
-- Booking / Reservation system
-- Guest reservation cancellation
-- Owner reservation cancellation
-- Creation and deletion of properties
-- Pricing calculation
-- Advanced search algorithm by category, date range, map location, number of guests, rooms and bathrooms
-    - For example we will filter out properties that have a reservation in your desired date range to travel
-- Favorites system
-- Shareable URL filters
-    - Lets say you select a category, location and date range, you will be able to share URL with a logged out friend in another browser and they will see the same results
-- How to write POST and DELETE routes in route handlers (app/api)
-- How to fetch data in server react components by directly accessing database (WITHOUT API! like Magic!)
-- How to handle files like error.tsx and loading.tsx which are new Next 13 templating files to unify loading and error handling
-- How to handle relations between Server and Child components!
+## Features
+
+- Digitization of physical artifacts using advanced imaging techniques.
+- Cloud-based storage for high-resolution digital replicas.
+- Interactive virtual tours of museums and exhibits.
+- Access to educational resources and interactive content.
+- Collaboration and crowdsourcing tools for researchers and scholars.
+- Rights management system for copyright and intellectual property.
+- Secure data encryption and access control.
+- Analytics and reporting for user engagement.
+- Scalability and sustainability for long-term success.
+
+## Getting Started
 
 ### Prerequisites
 
-**Node version 14.x**
+- Node.js and npm installed on your machine.
+- A modern web browser.
+- An internet connection to access the web application.
 
-### Cloning the repository
+### Installation
 
-```shell
-git clone https://github.com/AntonioErdeljac/next13-airbnb-clone.git
-```
+1. Clone the repository:
 
-### Install packages
+   ```bash
+   git clone https://github.com/your-username/museum-archive-app.git
+   ```
 
-```shell
-npm i
-```
+2. Change to the project directory:
 
-### Setup .env file
+   ```bash
+   cd museum-archive-app
+   ```
+
+3. Install project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your web browser and access the application at `http://localhost:3000`.
+
+## Usage
+
+- Explore the digital collection of artifacts.
+- Take virtual tours of museums and exhibits.
+- Contribute to collaborative efforts.
+- Access educational resources.
+- Report issues or provide feedback.
+
+## Contributing
+
+We welcome contributions from the community. Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get involved.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have questions or need assistance, please contact us at [your-email@example.com].
 
 
-```js
-DATABASE_URL=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-GITHUB_ID=
-GITHUB_SECRET=
-NEXTAUTH_SECRET=
-```
-
-### Setup Prisma
-
-```shell
-npx prisma db push
-
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+Feel free to add any additional sections or customize the README as needed for your project.
